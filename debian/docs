@@ -1,5 +1,5 @@
-README.md
-rfcs/configure.md
-rfcs/Whitepaper.md
-tunnel/README.md
-admin/README.md
+cjdns/README.md
+cjdns/doc/configure.md
+cjdns/doc/Whitepaper.md
+cjdns/tunnel/README.md
+cjdns/admin/README.md
