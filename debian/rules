@@ -18,6 +18,12 @@ override_dh_auto_configure:
 override_dh_install:
 	dh_install --fail-missing
 
+override_dh_installinit:
+	cp -f cjdns/contrib/upstart/cjdns.conf debian/cjdns.upstart
+	dh_installinit
+
+# The following is needed for the -dbg package
+
 override_dh_strip:
 	dh_strip --dbg-package=cjdns-dbg
 
