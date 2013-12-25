@@ -1,0 +1,7 @@
+{
+    "name": "cjdns-ubuntu",
+    "version": "0.1.0",
+    "dependencies": {
+        "nthen": "~0.1.1"
+    }
+}
